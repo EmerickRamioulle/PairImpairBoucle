@@ -13,20 +13,20 @@ class Program
          */
         int nombre;
         string reponse;
-        do {
+        do
+        {
             Console.WriteLine("Donne moi un nombre");
-            nombre = Console.ReadLine();
-            /*if (nombre % 2)
+            nombre = Convert.ToInt32(Console.ReadLine());
+            if (nombre % 2 == 0)
             {
                 Console.WriteLine("Ton nombre est pair");
             }
             else
             {
                 Console.WriteLine("Ton nombre est impair");
-            }       
-            Console.WriteLine("Tu veux recommencer ? y/n");*/
-            reponse = Console.ReadLine()
+            }
+            Console.WriteLine("Voulez-vous refaire le script ? y/n");
+            reponse = Console.ReadLine();
         } while (reponse == "y");
-
     }
 }
