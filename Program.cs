@@ -15,8 +15,8 @@ class Program
         string reponse;
         do {
             Console.WriteLine("Donne moi un nombre");
-        nombre = Console.ReadLine();
-            if (nombre % 2)
+            nombre = Console.ReadLine();
+            /*if (nombre % 2)
             {
                 Console.WriteLine("Ton nombre est pair");
             }
@@ -24,10 +24,9 @@ class Program
             {
                 Console.WriteLine("Ton nombre est impair");
             }       
-                Console.WriteLine("Tu veux recommencer ? y/n");
-                reponse = Console.ReadLine()
-            }while (reponse == "y") ;
-        }
+            Console.WriteLine("Tu veux recommencer ? y/n");*/
+            reponse = Console.ReadLine()
+        } while (reponse == "y");
 
     }
 }
