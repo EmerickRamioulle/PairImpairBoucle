@@ -25,8 +25,8 @@ class Program
             {
                 Console.WriteLine("Ton nombre est impair");
             }
-            Console.WriteLine("Voulez-vous refaire le script ? y/n");
+            Console.WriteLine("\nVoulez-vous refaire le script ? y/n");
             reponse = Console.ReadLine();
-        } while (reponse == "y");
+        } while (reponse == "y" || reponse == "Y");
     }
 }
