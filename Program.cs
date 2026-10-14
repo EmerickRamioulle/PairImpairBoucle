@@ -11,5 +11,9 @@ class Program
          * Demandez à l'utilisateur s'il veut proposer un autre nombre
          *  On lui permet de le faire lorsqu'il entre "y". Dans les autres cas, on termine le programme
          */
+        int nombre;
+        Console.WriteLine("Donne moi un nombre");
+        Console.ReadLine();
+
     }
 }
