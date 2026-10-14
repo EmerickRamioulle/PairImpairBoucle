@@ -13,7 +13,7 @@ class Program
          */
         int nombre;
         Console.WriteLine("Donne moi un nombre");
-        Console.ReadLine();
-
+        Console.ReadLine(nombre);
+        
     }
 }
