@@ -12,8 +12,22 @@ class Program
          *  On lui permet de le faire lorsqu'il entre "y". Dans les autres cas, on termine le programme
          */
         int nombre;
-        Console.WriteLine("Donne moi un nombre");
+        string reponse;
+        do {
+            Console.WriteLine("Donne moi un nombre");
         nombre = Console.ReadLine();
-        
+            if (nombre % 2)
+            {
+                Console.WriteLine("Ton nombre est pair");
+            }
+            else
+            {
+                Console.WriteLine("Ton nombre est impair");
+            }       
+                Console.WriteLine("Tu veux recommencer ? y/n");
+                reponse = Console.ReadLine()
+            }while (reponse == "y") ;
+        }
+
     }
 }
